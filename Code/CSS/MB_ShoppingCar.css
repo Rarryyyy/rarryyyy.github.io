@@ -26,7 +26,7 @@
     background: none;
 }
 .main {
-    padding: 5.666667rem 0 8rem 0;
+    padding: 5.666667rem 0 4rem 0;
 }
 .main .box {
     width: 22.3rem;
@@ -44,6 +44,11 @@
 .main .box .name div {
     float: left;
     line-height: 1.2rem;
+}
+.main .box .name img {
+    width: 1.2rem;
+    float: left;
+    margin-right: .333333rem;
 }
 .main .box .circle {
     width: 1.2rem;
@@ -182,7 +187,7 @@
     position: fixed;
     bottom: 4rem;
     position: relative;
-    /* display: none; */
+    display: none;
 }
 .footer .settlement .box {
     color: #999;
