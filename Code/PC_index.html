@@ -1,0 +1,351 @@
+<script>
+    (function(win,doc){
+        let docEl = doc.documentElement;
+
+        function rescale() {
+            let clientWidth = docEl.clientWidth;
+            if (clientWidth<1200) {
+                win.location.href = 'MB_index.html'
+            }
+        }
+        rescale();
+
+        win.addEventListener('resize',rescale)
+    })(window,document);
+</script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>雷侠商城 - 首页</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/PC_index.css">
+    <link rel="stylesheet" href="./layui/css/layui.css" media="all">
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="logo">
+                <div class="box">
+                    <img src="./IMG/logo.png" alt="" width="127px" class="top">
+                    <img src="./IMG/logo2.png" alt="" width="127px">
+                </div>
+            </div>
+            <div class="nav">
+                <ul>
+                    <li><a href="#">手机</a></li>
+                    <li><a href="#">手表手环</a></li>
+                    <li><a href="#">耳机音响</a></li>
+                    <li><a href="#">笔记本平板</a></li>
+                    <li><a href="#">屏幕</a></li>
+                    <li><a href="#">硬件</a></li>
+                    <li><a href="#">服务</a></li>
+                </ul>
+            </div>
+            <button>
+                <a href="#">登录</a>
+            </button>
+            <div class="search">
+                <input type="text" placeholder="以旧换新">
+                <img src="./IMG/search.png">
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="container">
+            <div class="banner">
+                <div class="layui-carousel" id="test1">
+                    <div carousel-item>
+                        <div><a href="#"><img src="./IMG/banner.png" alt=""></a></div>
+                        <div><a href="#"><img src="./IMG/banner2.png" alt=""></a></div>
+                    </div>
+                </div>
+                <div class="timer">
+                    <div id="count">
+                        <i>距离 雷侠开门红 时间还有：</i>
+                        <span></span><i>&nbsp;&nbsp;天&nbsp;&nbsp;</i>
+                        <span></span><i>&nbsp;&nbsp;:&nbsp;&nbsp;</i>
+                        <span></span><i>&nbsp;&nbsp;:&nbsp;&nbsp;</i><span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="boxList">
+                <div class="title">
+                    <p class="tle">618特惠</p>
+                    <p class="time">活动时间&nbsp;:&nbsp;5.24日-31日</p>
+                </div>
+                <div class="list">
+                    <div class="box">
+                        <a href="#">
+                            <div class="imgbox">
+                                <img src="./IMG/TV.png" alt="" width="198px">
+                            </div>
+                            <dl>
+                                <dt>雷侠智慧屏V系列 2021款</dt>
+                                <dd>2400万超广角AI慧眼</dd>
+                                <dd><i>￥</i><span>5499</span>起</dd>
+                            </dl>
+                        </a>
+                    </div>
+                    <div class="box">
+                        <a href="#">
+                            <div class="imgbox">
+                                <img src="./IMG/TV.png" alt="" width="198px">
+                            </div>
+                            <dl>
+                                <dt>雷侠智慧屏V系列 2021款</dt>
+                                <dd>2400万超广角AI慧眼</dd>
+                                <dd><i>￥</i><span>5499</span>起</dd>
+                            </dl>
+                        </a>
+                    </div>
+                    <div class="box">
+                        <a href="#">
+                            <div class="imgbox">
+                                <img src="./IMG/TV.png" alt="" width="198px">
+                            </div>
+                            <dl>
+                                <dt>雷侠智慧屏V系列 2021款</dt>
+                                <dd>2400万超广角AI慧眼</dd>
+                                <dd><i>￥</i><span>5499</span>起</dd>
+                            </dl>
+                        </a>
+                    </div>
+                    <div class="box">
+                        <a href="#">
+                            <div class="imgbox">
+                                <img src="./IMG/TV.png" alt="" width="198px">
+                            </div>
+                            <dl>
+                                <dt>雷侠智慧屏V系列 2021款</dt>
+                                <dd>2400万超广角AI慧眼</dd>
+                                <dd><i>￥</i><span>5499</span>起</dd>
+                            </dl>
+                        </a>
+                    </div>
+                    <div class="box">
+                        <a href="#">
+                            <div class="imgbox">
+                                <img src="./IMG/TV.png" alt="" width="198px">
+                            </div>
+                            <dl>
+                                <dt>雷侠智慧屏V系列 2021款</dt>
+                                <dd>2400万超广角AI慧眼</dd>
+                                <dd><i>￥</i><span>5499</span>起</dd>
+                            </dl>
+                        </a>
+                    </div>
+                    <div class="box">
+                        <a href="#">
+                            <div class="imgbox">
+                                <img src="./IMG/TV.png" alt="" width="198px">
+                            </div>
+                            <dl>
+                                <dt>雷侠智慧屏V系列 2021款</dt>
+                                <dd>2400万超广角AI慧眼</dd>
+                                <dd><i>￥</i><span>5499</span>起</dd>
+                            </dl>
+                        </a>
+                    </div>
+                    <div class="box">
+                        <a href="#">
+                            <div class="imgbox">
+                                <img src="./IMG/TV.png" alt="" width="198px">
+                            </div>
+                            <dl>
+                                <dt>雷侠智慧屏V系列 2021款</dt>
+                                <dd>2400万超广角AI慧眼</dd>
+                                <dd><i>￥</i><span>5499</span>起</dd>
+                            </dl>
+                        </a>
+                    </div>
+                    <div class="box">
+                        <a href="#">
+                            <div class="imgbox">
+                                <img src="./IMG/TV.png" alt="" width="198px">
+                            </div>
+                            <dl>
+                                <dt>雷侠智慧屏V系列 2021款</dt>
+                                <dd>2400万超广角AI慧眼</dd>
+                                <dd><i>￥</i><span>5499</span>起</dd>
+                            </dl>
+                        </a>
+                    </div>
+                </div>
+                <div class="advertising">
+                    <a href="#"><img src="./IMG/advertising2.png" alt=""></a>
+                </div>
+                <div class="phoneList">
+                    <h3>手机</h3>
+                    <div class="left">
+                        <a href="#">
+                            <div>
+                                Lei Xia<br>
+                                Fold
+                            </div>
+                            <img src="./IMG/phone1.png" alt="">
+                        </a>
+                    </div>
+                    <div class="right">
+                        <div class="phone">
+                            <a href="#">
+                                <img src="./IMG/phone2.png" alt="" width="108px">
+                            <dl>
+                                <dt>雷侠11 Pro</dt>
+                                <dd>雷侠11 青春版 轻薄</dd>
+                            </dl>
+                            </a>
+                        </div>
+                        <div class="phone">
+                            <a href="#">
+                                <img src="./IMG/phone2.png" alt="" width="108px">
+                            <dl>
+                                <dt>雷侠11 Pro</dt>
+                                <dd>雷侠11 青春版 轻薄</dd>
+                            </dl>
+                            </a>
+                        </div>
+                        <div class="phone">
+                            <a href="#">
+                                <img src="./IMG/phone2.png" alt="" width="108px">
+                            <dl>
+                                <dt>雷侠11 Pro</dt>
+                                <dd>雷侠11 青春版 轻薄</dd>
+                            </dl>
+                            </a>
+                        </div>
+                        <div class="phone">
+                            <a href="#">
+                                <img src="./IMG/phone2.png" alt="" width="108px">
+                            <dl>
+                                <dt>雷侠11 Pro</dt>
+                                <dd>雷侠11 青春版 轻薄</dd>
+                            </dl>
+                            </a>
+                        </div>
+                        <div class="phone">
+                            <a href="#">
+                                <img src="./IMG/phone2.png" alt="" width="108px">
+                            <dl>
+                                <dt>雷侠11 Pro</dt>
+                                <dd>雷侠11 青春版 轻薄</dd>
+                            </dl>
+                            </a>
+                        </div>
+                        <div class="phone">
+                            <a href="#">
+                                <img src="./IMG/phone2.png" alt="" width="108px">
+                            <dl>
+                                <dt>雷侠11 Pro</dt>
+                                <dd>雷侠11 青春版 轻薄</dd>
+                            </dl>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="advertising">
+                    <img src="./IMG/advertising.png" alt="">
+                </div>
+                <div class="houseList">
+                    <h3>家电</h3>
+                    <div class="left">
+                        <a href="#">
+                            <dl>
+                                <dt>雷侠电视4A 60寸</dt>
+                                <dd>人工智能语音系统</dd>
+                                <dd>零售价&nbsp;:&nbsp;<span style="color: #E35656;font-size: 35px;">2799元</span></dd>
+                            </dl>
+                            <img src="./IMG/tv1.png" alt="" width="241px">
+                        </a>
+                    </div>
+                    <div class="right">
+                        <div class="house">
+                            <a href="#">
+                                <img src="./IMG/tv1.png" alt="" width="182px">
+                            <dl>
+                                <dt>雷侠全面屏电视65英寸</dt>
+                                <dd>全面屏幕设计</dd>
+                            </dl>
+                            </a>
+                        </div>
+                        <div class="house">
+                            <a href="#">
+                                <img src="./IMG/tv1.png" alt="" width="182px">
+                            <dl>
+                                <dt>雷侠全面屏电视65英寸</dt>
+                                <dd>全面屏幕设计</dd>
+                            </dl>
+                            </a>
+                        </div>
+                        <div class="house">
+                            <a href="#">
+                                <img src="./IMG/tv1.png" alt="" width="182px">
+                            <dl>
+                                <dt>雷侠全面屏电视65英寸</dt>
+                                <dd>全面屏幕设计</dd>
+                            </dl>
+                            </a>
+                        </div>
+                        <div class="house">
+                            <a href="#">
+                                <img src="./IMG/tv1.png" alt="" width="182px">
+                            <dl>
+                                <dt>雷侠全面屏电视65英寸</dt>
+                                <dd>全面屏幕设计</dd>
+                            </dl>
+                            </a>
+                        </div>
+                        <div class="house">
+                            <a href="#">
+                                <img src="./IMG/tv1.png" alt="" width="182px">
+                            <dl>
+                                <dt>雷侠全面屏电视65英寸</dt>
+                                <dd>全面屏幕设计</dd>
+                            </dl>
+                            </a>
+                        </div>
+                        <div class="house">
+                            <a href="#">
+                                <img src="./IMG/tv1.png" alt="" width="182px">
+                            <dl>
+                                <dt>雷侠全面屏电视65英寸</dt>
+                                <dd>全面屏幕设计</dd>
+                            </dl>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="box">
+            <div class="logo">
+                <img src="./IMG/logo.png" alt="" class="top">
+                <img src="./IMG/logo2.png" alt="">
+            </div>
+            <div class="content">
+                Copyright © 2021 雷侠商城
+                Powered by 懵懵公主和她的雷雷骑士
+            </div>
+        </div>
+    </div>
+    <script src="./JS/rem.js"></script>
+    <script src="./layui/layui.js"></script>
+    <script src="./JS/timer.js"></script>
+    <script>
+        layui.use('carousel', function(){
+            var carousel = layui.carousel;
+            carousel.render({
+                elem: '#test1'
+                ,width: '1200px'
+                ,height: '400px'
+                ,arrow: 'hover'
+                ,anim: 'fade'
+        });
+        });
+    </script>
+</body>
+</html>

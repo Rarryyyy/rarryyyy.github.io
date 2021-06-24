@@ -1,0 +1,121 @@
+@charset "utf-8";
+body {
+    background: #ECECEC;
+}
+.header {
+    width: 100%;
+    height: 10.8rem;
+    background: #FFE500;
+    padding: 2.6rem 0 0 1.2rem;
+}
+.header .user img {
+    width: 4.6rem;
+    border: .166667rem solid #fff;
+    border-radius: 50%;
+    float: left;
+}
+.header .user dl {
+    float: left;
+    margin: .866667rem 0 0 .533333rem;
+}
+.header .user dt {
+    color: #fff;
+    font-size: 1.166667rem;
+    font-weight: bold;
+    margin-bottom: .466667rem;
+}
+.header .user dd {
+    color: #fff;
+    font-size: .833333rem;
+}
+.main {
+    width: 22.3rem;
+    margin: -2.333333rem auto;
+}
+.main .nav {
+    width: 100%;
+    height: 5.666667rem;
+    background: #fff;
+    border-radius: .666667rem;
+    padding: 1.233333rem 1.566667rem 0 1.566667rem;
+}
+.main .nav li {
+    float: left;
+    text-align: center;
+    margin-right: 2.9rem;
+}
+.main .nav li:last-child {
+    margin: 0;
+}
+.main .nav li a {
+    color: #666;
+    font-size: .833333rem;
+}
+.main .nav li a img {
+    width: 1.866667rem;
+    margin-bottom: .166667rem;
+}
+.main .order {
+    width: 100%;
+    height: 2.833333rem;
+    background: #fff;
+    border-radius: .666667rem;
+    margin: .666667rem auto;
+}
+.main .order a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #333;
+    font-size: 1rem;
+    line-height: 2.833333rem;
+    text-indent: 1.566667rem;
+}
+.main .order img,.menu img {
+    width: 2rem;
+    float: right;
+    margin: .416667rem .6rem 0 0;
+}
+.main .menu {
+    width: 100%;
+    height: 9.633333rem;
+    background: #fff;
+    border-radius: .666667rem;
+    padding: .6rem 0 0 1.566667rem;
+}
+.main .menu li {
+    width: 100%;
+    height: 2rem;
+    float: left;
+    margin-bottom: .2rem;
+}
+.main .menu li a {
+    color: #666;
+    font-size: 1rem;
+    line-height: 2rem;
+}
+.footer {
+    width: 100%;
+    height: 4rem;
+    background: #fff;
+    position: fixed;
+    bottom: 0;
+    border-top: 1px solid #ddd;
+}
+.footer div {
+    width: 33.333%;
+    float: left;
+    text-align: center;
+    padding-top: .6rem;
+}
+.footer div a {
+    font-size: .8rem;
+    color: #999;
+}
+.footer .select {
+    color: #FFE500;
+}
+.footer div a span {
+    font-size: 2rem;
+    margin-bottom: .066667rem;
+}

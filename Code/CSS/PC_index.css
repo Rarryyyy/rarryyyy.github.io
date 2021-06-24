@@ -1,0 +1,340 @@
+@charset "utf-8";
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+.header {
+    width: 100%;
+    height: 130px;
+    background: #fff;
+}
+.header .logo {
+    width: 127px;
+    height: 73px;
+    position: absolute;
+    top: 22px;
+    left: 18px;
+    overflow: hidden;
+}
+.header .logo .box {
+    transition: 0.5s all;
+}
+.header .logo .box .top {
+    margin-bottom: 20px;
+}
+.header .logo:hover .box {
+    transform: translateY(-71.5px);
+}
+.nav {
+    position: absolute;
+    left: 244px;
+}
+.nav li {
+    float: left;
+    margin-right: 28px;
+}
+.nav li a {
+    color: #333;
+    font-size: 22px;
+    line-height: 130px;
+}
+.nav li:hover a {
+    color: #D32A2A;
+}
+.header button {
+    background: none;
+    position: absolute;
+    right: 263px;
+}
+.header button a {
+    color: #999;
+    font-size: 18px;
+    line-height: 130px;
+}
+.search {
+    position: absolute;
+    top: 50px;
+    right: 0;
+}
+.search input {
+    width: 233px;
+    height: 30px;
+    background: #F2F3F5;
+    border-radius: 21px;
+    text-align: right;
+    font-size: 12px;
+    padding-right: 30px;
+    color: #999;
+}
+.search img {
+    width: 16px;
+    position: absolute;
+    top: 7px;
+    right: 10px;
+}
+.main {
+    background: #F2F3F5;
+}
+.banner {
+    width: 1200px;
+    height: 470px;
+    background: #E0E0E0;
+    position: relative;
+}
+.banner .layui-carousel img {
+    width: 1200px;
+}
+.timer {
+    width: 1200px;
+    height: 70px;
+    background: #D32A2A;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.timer div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.timer i {
+    font-size: 20px;
+    color: #fff;
+    line-height: 30px;
+    float: left;
+}
+.timer span {
+    display: block;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    color: #333;
+    line-height: 30px;
+    background: #fff;
+    border-radius: 3px;
+    float: left;
+}
+.boxList .title {
+    margin: 39px 0 48px 0;
+    text-align: center;
+}
+.boxList .title .tle {
+    color: #D32A2A;
+    font-size: 34px;
+    font-weight: bold;
+}
+.boxList .title .time {
+    color: #333;
+    font-size: 24px;
+    line-height: 32px;
+}
+.boxList .list {
+    width: 100%;
+    height: 732px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+.boxList .list .box {
+    width: 290px;
+    height: 360px;
+    background: #FFFFFF;
+    transition: all 0.5s;
+}
+.boxList .list .box:hover {
+    box-shadow: 0 5px 10px rgb(179, 187, 199);
+    transform: translateY(-5px);
+}
+.boxList .list .box .imgbox {
+    width: 290px;
+    height: 200px;
+    background: #EBEEF3;
+    margin-bottom: 24px;
+    position: relative;
+}
+.boxList .list .box .imgbox img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.boxList .list .box dl {
+    text-align: center;
+    letter-spacing: 1px;
+}
+.boxList .list .box dl dt {
+    color: #333;
+    font-size: 20px;
+}
+.boxList .list .box dl dd {
+    color: #666;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.boxList .list .box dl dd:last-child {
+    color: #666;
+    font-size: 16px;
+    margin-top: 38px;
+}
+.boxList .list .box dl dd:last-child i,span {
+    color: #FF960C;
+}
+.boxList .list .box dl dd:last-child span {
+    font-size: 24px;
+}
+.boxList .advertising {
+    width: 1200px;
+    height: 200px;
+    background: #fff;
+    margin: 30px 0 30px 0;
+    transition: all 0.5s;
+}
+.boxList .advertising:hover {
+    box-shadow: 0 5px 10px rgb(179, 187, 199);
+    transform: translateY(-5px);
+}
+.boxList .advertising img {
+    width: 100%;
+}
+.boxList h3 {
+    color: #333;
+    font-size: 34px;
+    margin-bottom: 16px;
+}
+.boxList .phoneList .left,
+.houseList .left {
+    width: 303px;
+    height: 500px;
+    float: left;
+    margin-right: 10px;
+    position: relative;
+    transition: all 0.5s;
+}
+.boxList .phoneList .left:hover {
+    box-shadow: 0 5px 10px rgb(179, 187, 199);
+    transform: translateY(-5px);
+}
+.boxList .houseList .left:hover {
+    box-shadow: 0 5px 10px rgb(179, 187, 199);
+    transform: translateY(-5px);
+}
+.boxList .phoneList .left {
+    background: #fff;
+    padding: 78px 0 0 19px;
+}
+.boxList .houseList .left {
+    background: linear-gradient(#E7F0FA,#AACBF6);
+    padding: 65px 0 0 34px;
+}
+.boxList .houseList .left dt {
+    color: #333;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+.boxList .houseList .left dd {
+    color: #666;
+    font-size: 20px;
+    line-height: 27px;
+    margin-bottom: 26px;
+}
+.boxList .phoneList .left div {
+    color: #333;
+    font-size: 55px;
+    font-weight: bold;
+}
+.boxList .phoneList .left img {
+    position: absolute;
+    bottom: 26px;
+}
+.boxList .houseList .left img {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.boxList .phoneList .right,
+.houseList .right {
+    width: 887px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+.boxList .phoneList .right .phone,
+.houseList .right .house {
+    width: 289px;
+    height: 245px;
+    background: #fff;
+    position: relative;
+    transition: all 0.5s;
+}
+.boxList .phoneList .right .phone:hover {
+    box-shadow: 0 5px 10px rgb(179, 187, 199);
+    transform: translateY(-5px);
+}
+.boxList .houseList .right .house:hover {
+    box-shadow: 0 5px 10px rgb(179, 187, 199);
+    transform: translateY(-5px);
+}
+.boxList .phoneList .right .phone img,
+.houseList .right .house img {
+    position: absolute;
+    top: 26px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.boxList .houseList .right .house img {
+    top: 37px;
+}
+.boxList .phoneList .right .phone dl,
+.houseList .right .house dl {
+    text-align: center;
+    position: absolute;
+    bottom: 26px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.boxList .houseList .right .house dl {
+    bottom: 22px;
+}
+.boxList .phoneList .right .phone dt,
+.houseList .right .house dt {
+    width: 289px;
+    color: #333;
+    font-size: 20px;
+}
+.boxList .phoneList .right .phone dd, 
+.houseList .right .house dd {
+    width: 289px;
+    color: #999;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.footer {
+    height: 156px;
+    background: #F2F3F5;
+}
+.footer .box .logo {
+    width: 86px;
+    float: left;
+    margin: 33px 0 0 580px;
+}
+.footer .box .logo img {
+    width: 100%;
+}
+.footer .box .logo .top {
+    margin-bottom: 6px;
+}
+.footer .box .content {
+    width: 238px;
+    text-align: center;
+    line-height: 25px;
+    float: left;
+    margin: 54px 0 0 20px;
+}

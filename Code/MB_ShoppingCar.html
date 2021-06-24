@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>雷侠商城 - 购物车</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/MB_ShoppingCar.css">
+    <link rel="stylesheet" href="./FONT/iconfont.css">
+</head>
+<body>
+    <div class="header">
+        <div class="left">购物车</div>
+        <button type="button" class="right">管理</button>
+    </div>
+    <div class="main">
+        <div class="container">
+            <div class="box Combox">
+                <div class="name">
+                    <div class="circle"></div>
+                    <div>雷侠自营</div>
+                </div>
+                <ul>
+                    <li>
+                        <div class="checkbox">
+                            <div class="checkCirle"></div>
+                            <input type="checkbox">
+                        </div>
+                        <a href="#" class="img"><img src="./IMG/headset.png" alt=""></a>
+                        <dl>
+                            <dt>雷侠蓝牙耳机，618折扣前两小时</dt>
+                            <dd class="style"><div>黑色</div><span></span></dd>
+                            <dd class="price">￥599</dd>
+                            <dd class="number">
+                                <div class="minus">-</div><div class="num">1</div><div class="add">+</div>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <div class="checkbox">
+                            <div class="checkCirle"></div>
+                            <input type="checkbox">
+                        </div>
+                        <a href="#" class="img"><img src="./IMG/phone2.png" alt=""></a>
+                        <dl>
+                            <dt>雷侠青春版5G手机，618折扣前两小时</dt>
+                            <dd class="style"><div>白色</div><span></span></dd>
+                            <dd class="price">￥3799</dd>
+                            <dd class="number">
+                                <div class="minus">-</div><div class="num">1</div><div class="add">+</div>
+                            </dd>
+                        </dl>
+                    </li>
+                </ul>
+            </div>
+            <div class="box Combox">
+                <div class="name">
+                    <div class="circle Cselect" id="circle"></div>
+                    <div>国旻专营店</div>
+                </div>
+                <ul>
+                    <li>
+                        <div class="checkbox">
+                            <div class="checkCirle Cselect"></div>
+                            <input type="checkbox">
+                        </div>
+                        <a href="#" class="img"><img src="./IMG/headset.png" alt=""></a>
+                        <dl>
+                            <dt>雷侠蓝牙耳机，618折扣前两小时</dt>
+                            <dd class="style"><div>黑色</div><span></span></dd>
+                            <dd class="price">￥599</dd>
+                            <dd class="number">
+                                <div class="minus">-</div><div class="num">1</div><div class="add">+</div>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <div class="checkbox">
+                            <div class="checkCirle Cselect"></div>
+                            <input type="checkbox">
+                        </div>
+                        <a href="#" class="img"><img src="./IMG/phone2.png" alt=""></a>
+                        <dl>
+                            <dt>雷侠青春版5G手机，618折扣前两小时</dt>
+                            <dd class="style"><div>白色</div><span></span></dd>
+                            <dd class="price">￥3799</dd>
+                            <dd class="number">
+                                <div class="minus">-</div><div class="num">1</div><div class="add">+</div>
+                            </dd>
+                        </dl>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="nav">
+            <div>
+                <a href="./MB_index.html">
+                    <span class="iconfont icon-home"></span><br>
+                    首页
+                </a>
+            </div>
+            <div>
+                <a href="./MB_ShoppingCar.html" class="select">
+                    <span class="iconfont icon-Shoppingcart"></span><br>
+                    购物车
+                </a>
+            </div>
+            <div>
+                <a href="./MB_login.html">
+                    <span class="iconfont icon-mine"></span><br>
+                    我的
+                </a>
+            </div>
+        </div>
+        <div class="settlement">
+            <div class="selectAll">
+                <div class="box"><div class="circleAll"></div>全选</div>
+            </div>
+            <div class="sum">
+                <div style="color: #999;margin-right: .4rem;font-size: .766667rem;">共<i style="font-size: .766667rem;">3</i>件</div>
+                <div style="color: #252525;font-size: .933333rem;">合计:<i style="color: #FF4702;font-size: .766667rem;">￥</i></div>
+                <div style="color: #FF4702;font-size: 1.3rem;margin-top: -0.333333rem;">4997</div>
+            </div>
+            <div class="details">
+                查看明细<img src="./IMG/detail.png" alt="">
+            </div>
+            <button type="button">
+                <a href="./MB_order.html">结算</a>
+            </button>
+        </div>
+    </div>
+    <script src="./JS/rem.js"></script>
+    <script>
+        let circle = document.querySelectorAll('.circle');
+        let checkCirle = document.querySelectorAll('.checkCirle');
+        let box = document.querySelectorAll('.Combox')
+
+        for (let i=0;i<circle.length;i++) {
+            let checkCirle = box[i].querySelectorAll('.checkCirle');
+            circle[i].addEventListener('click',function(){
+                if (circle[i].classList.contains('Cselect')) {
+                    circle[i].classList.remove('Cselect');
+                    for (let i=0;i<checkCirle.length;) {
+                        checkCirle[i++].classList.remove('Cselect');
+                    }
+                } else {
+                    circle[i].classList.add('Cselect');
+                    for (let i=0;i<checkCirle.length;) {
+                        checkCirle[i++].classList.add('Cselect');
+                    }
+                }
+            })
+        }
+        
+        for (let i=0;i<checkCirle.length;i++) {
+            checkCirle[i].addEventListener('click',function(){
+                if (checkCirle[i].classList.contains('Cselect')) {
+                    checkCirle[i].classList.remove('Cselect');
+                } else {
+                    checkCirle[i].classList.add('Cselect');
+                }
+            })
+        }
+
+        let selectAll = document.querySelector('.circleAll');
+
+        selectAll.addEventListener('click',function(){
+            if (selectAll.classList.contains('Cselect')) {
+                selectAll.classList.remove('Cselect');
+                for (let i=0;i<circle.length;) {
+                    circle[i++].classList.remove('Cselect');
+                }
+                for (let i=0;i<checkCirle.length;) {
+                    checkCirle[i++].classList.remove('Cselect');
+                }
+            } else {
+                selectAll.classList.add('Cselect');
+                for (let i=0;i<circle.length;) {
+                    circle[i++].classList.add('Cselect');
+                }
+                for (let i=0;i<checkCirle.length;) {
+                    checkCirle[i++].classList.add('Cselect');
+                }
+            }
+        })
+    </script>
+</body>
+</html>

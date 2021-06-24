@@ -1,0 +1,296 @@
+@charset "utf-8";
+body {
+    background: #EBEBEB;
+}
+.container {
+    width: 23.066667rem;
+    margin: 0 auto;
+}
+.header {
+    width: 100%;
+    height: 17.466667rem;
+    position: relative;
+}
+.layui-carousel img {
+    width: 100%;
+}
+.layui-carousel-ind ul {
+    display: none;
+}
+.header .scan,.message {
+    width: 2.333333rem;
+    position: absolute;
+    top: 1.333333rem;
+}
+.header .scan img,.message img {
+    width: 100%;
+}
+.header .scan {
+    left: 1rem;
+}
+.header .message {
+    right: 1rem;
+}
+.header .search {
+    position: absolute;
+    left: 3.833333rem;
+    top: 1.333333rem;
+}
+.header .search input {
+    width: 17.333333rem;
+    height: 2.333333rem;
+    border-radius: .6rem;
+    text-indent: 2.466667rem;
+    color: #999;
+    font-size: .933333rem;
+}
+.header .search input::placeholder {
+    color: #999;
+}
+.header .search input::-webkit-input-placeholder {
+    color: #999;
+}
+.header .search input::-moz-placeholder {
+    color: #999;
+}
+.header .search img {
+    width: 1.333333rem;
+    position: absolute;
+    top: .5rem;
+    left: .466667rem;
+}
+.main {
+    transform: translateY(-1rem);
+}
+.main .nav {
+    width: 23.066667rem;
+    height: 12.933333rem;
+    background: #fff;
+    border-radius: .166667rem;
+    padding: .933333rem 1.8rem;
+    margin-bottom: .666667rem;
+}
+.main .nav li {
+    width: 3.666667rem;
+    float: left;
+    margin: 0 1.6rem .8rem 0;
+}
+.main .nav li p {
+    text-align: center;
+    color: #666;
+    font-size: .8rem;
+}
+.main .nav li p:first-child {
+    margin-bottom: .666667rem;
+}
+.main .nav li img {
+    width: 100%;
+}
+.main .preferential {
+    width: 100%;
+    height: 22.133333rem;
+    background: #fff;
+    border-radius: .166667rem;
+    margin-bottom: .666667rem;
+}
+.main .preferential .timer {
+    width: 100%;
+    height: 2.4rem;
+    padding: .6rem .7rem;
+    border-bottom: .033333rem solid #E8E8E8;
+}
+.main .preferential .timer i {
+    font-size: 1.033333rem;
+    color: #666;
+    line-height: 1.2rem;
+    float: left;
+}
+.main .preferential .timer i:first-child {
+    color: #D32A2A;
+    font-weight: bold;
+}
+.main .preferential .timer span {
+    display: block;
+    width: 1.2rem;
+    height: 1.2rem;
+    line-height: 1.2rem;
+    text-align: center;
+    background: #D32A2A;
+    border-radius: .1rem;
+    float: left;
+    font-size: .8rem;
+    color: #fff;
+}
+.main .preferential .Pnav {
+    width: 100%;
+    height: 19.733333rem;
+    padding: .666667rem .833333rem;
+}
+.main .preferential .Pnav div {
+    width: 50%;
+    height: 50%;
+    float: left;
+}
+.main .preferential .Pnav div dt {
+    color: #333;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: .333333rem;
+}
+.main .preferential .Pnav div dd {
+    font-size: .766667rem;
+}
+.main .preferential .Pnav div li {
+    width: 50%;
+    height: 6.833333rem;
+    float: left;
+    overflow: hidden;
+    position: relative;
+}
+.main .preferential .Pnav div li img {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.main .comList {
+    height: 91rem;
+}
+.main .comList .comItem {
+    width: 11.233333rem;
+    height: 16.7rem;
+    background: #fff;
+    border-radius: .5rem;
+    float: left;
+    margin: 0 .6rem .9rem 0;
+    position: relative;
+}
+.main .comList .comItem:nth-child(2n) {
+    margin-right: 0;
+}
+.main .comList .comItem .comImg {
+    width: 100%;
+    height: 11.733333rem;
+    position: relative;
+}
+.main .comList .comItem .comImg img {
+    width: 10rem;
+    height: 10rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.main .comList .comItem dl {
+    padding-left: .933333rem;
+}
+.main .comList .comItem dt {
+    width: 9.466667rem;
+    height: 1.6rem;
+    margin-bottom: .2rem;
+    color: #333;
+    font-size: .666667rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.main .comList .comItem .price i {
+    color: #FF4702;
+    font-size: .866667rem;
+    float: left;
+    margin-right: .166667rem;
+}
+.main .comList .comItem .price div {
+    width: 1.8rem;
+    height: .8rem;
+    border-radius: .266667rem;
+    text-align: center;
+    float: left;
+}
+.main .comList .comItem .price .new {
+    width: 2.7rem;
+}
+.main .comList .comItem .price span {
+    display: block;
+    line-height: .8rem;
+    font-size: .533333rem;
+}
+.main .comList .comItem .price .scale {
+    -webkit-transform: scale(0.8);
+}
+.main .comList .comItem .Rt {
+    border: 1px solid #FF8355;
+    color: #FF8355;
+}
+.main .comList .comItem .Gt {
+    border: 1px solid #48E491;
+    color: #48E491;
+}
+.main .comList .comItem .oldPrice {
+    display: block;
+    color: #999;
+    font-size: .466667rem;
+    -webkit-transform: scale(0.8);
+    text-decoration: line-through;
+    float: left;
+    clear: both;
+}
+.main .comList .comItem .seckilling {
+    width: 6.5rem;
+    height: .666667rem;
+    background: #FFEAEA;
+    color: #FF7E7E;
+    clear: both;
+    position: absolute;
+    bottom: .4rem;
+}
+.main .comList .comItem .seckilling span {
+    display: block;
+    width: 9rem;
+    font-size: .466667rem;
+    line-height: .666667rem;
+    -webkit-transform: scale(0.6);
+    margin-left: -1.1rem;
+}
+.main .comList .comItem .history {
+    width: 4.2rem;
+    height: .666667rem;
+    background: #FFEAEA;
+    color: #FF7E7E;
+    clear: both;
+    position: absolute;
+    bottom: .4rem;
+}
+.main .comList .comItem .history span {
+    display: block;
+    width: 9rem;
+    font-size: .466667rem;
+    line-height: .666667rem;
+    -webkit-transform: scale(0.6);
+    margin-left: -1.1rem;
+}
+.footer {
+    width: 100%;
+    height: 4rem;
+    background: #fff;
+    position: fixed;
+    bottom: 0;
+    border-top: 1px solid #ddd;
+}
+.footer div {
+    width: 33.333%;
+    float: left;
+    text-align: center;
+    padding-top: .6rem;
+}
+.footer div a {
+    font-size: .8rem;
+    color: #999;
+}
+.footer .select {
+    color: #FFE500;
+}
+.footer div a span {
+    font-size: 2rem;
+    margin-bottom: .066667rem;
+}

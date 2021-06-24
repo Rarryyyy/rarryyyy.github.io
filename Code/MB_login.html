@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>雷侠商城 - 登录</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/MB_login.css">
+</head>
+<body>
+    <div class="logo">
+        <img src="./IMG/logo.png" alt="">
+        <dl>
+            <dt>LOG IN</dt>
+            <dd>Log in to see what you love</dd>
+        </dl>
+    </div>
+    <div class="form">
+        <form action="#" method="POST">
+            <div class="name">
+                <img src="./IMG/name.png" alt="" class="img">
+                <input type="text" required id="username" class="input" placeholder="name">
+            </div>
+            <div class="password">
+                <img src="./IMG/password.png" alt="" class="img">
+                <input type="password" required id="password" class="input" placeholder="password">
+            </div>
+
+            <button type="button" class="login" id="login">LOGIN</button>
+            <p><a href="#">Forget your password?</a></p>
+            <button type="button" class="register">
+                <a href="./MB_register.html">REGISTER</a>
+            </button>
+        </form>
+    </div>
+    <script src="./JS/rem.js"></script>
+    <script>
+        let login = document.getElementById("login");
+        login.addEventListener('click',function(){
+            let username = document.getElementById("username").value;
+            let password = document.getElementById("password").value;
+            if (username == 'leixia' && password == '123456') {
+                window.location.href = 'MB_user.html'
+            }
+        })
+    </script>
+</body>
+</html>

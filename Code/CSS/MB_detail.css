@@ -1,0 +1,192 @@
+@charset "utf-8";
+body {
+    background: #ECECEC;
+}
+.container {
+    width: 22.3rem;
+    margin: 0 auto;
+}
+.header {
+    width: 100%;
+    height: 4.333333rem;
+    background: #F5F5F5;
+}
+.header button {
+    background: none;
+    float: left;
+    margin: 1.333333rem 0 0 1.333333rem;
+}
+.header button img {
+    width: 1.7rem;
+}
+.header .search {
+    float: right;
+    margin: 1rem 1.333333rem 0 0;
+    position: relative;
+}
+.header .search input {
+    width: 19.833333rem;
+    height: 2.333333rem;
+    background: #fff;
+    border-radius: .6rem;
+    text-indent: 2.466667rem;
+    font-size: .933333rem;
+    color: #999;
+}
+.header .search input::placeholder {
+    color: #999;
+}
+.header .search input::-webkit-input-placeholder {
+    color: #999;
+}
+.header .search input::-moz-placeholder {
+    color: #999;
+}
+.header .search img {
+    width: 1.333333rem;
+    position: absolute;
+    top: 50%;
+    left: .466667rem;
+    transform: translateY(-50%);
+}
+.main {
+    padding-bottom: 4.166667rem;
+}
+.main .banner img {
+    width: 100%;
+}
+.main .PriceDetail {
+    width: 100%;
+    height: 8.633333rem;
+    background: #fff;
+    border-radius: .666667rem;
+    margin-top: .6rem;
+    padding: .933333rem .733333rem .8rem .733333rem;
+}
+.main .PriceDetail .price {
+    color: #FF4702;
+    font-size: 1.166667rem;
+    margin-bottom: .4rem;
+}
+.main .PriceDetail .title {
+    color: #333;
+    font-size: 1rem;
+    margin-bottom: .4rem;
+}
+.main .PriceDetail .detail {
+    color: #999;
+    font-size: .6rem;
+}
+.main .PriceDetail ul {
+    margin: .733333rem 0 0 .833333rem;
+}
+.main .PriceDetail li {
+    float: left;
+    margin-right: 5.733333rem;
+}
+.main .PriceDetail li:last-child {
+    margin: 0;
+}
+.main .PriceDetail li a {
+    color: #999;
+    font-size: .8rem;
+}
+.main .PriceDetail li a span {
+    font-size: .8rem;
+}
+.main .style {
+    width: 100%;
+    height: 2.566667rem;
+    background: #fff;
+    border-radius: .666667rem;
+    margin: .466667rem auto;
+    color: #333;
+    font-size: .8rem;
+    line-height: 2.566667rem;
+    text-indent: .733333rem;
+}
+.main .style .more {
+    color: #999;
+    font-size: .666667rem;
+    line-height: 2.566667rem;
+    float: right;
+    margin-right: .4rem;
+}
+.main .style .more img {
+    width: .933333rem;
+    margin-top: -0.2rem;
+}
+.main .store {
+    width: 100%;
+    height: 4.666667rem;
+    background: #fff;
+    border-radius: .666667rem;
+    padding-top: .766667rem;
+    margin-bottom: .466667rem;
+}
+.main .store .head {
+    margin-left: .733333rem;
+}
+.main .store .head img {
+    width: 3.266667rem;
+    float: left;
+}
+.main .store .head .name {
+    float: left;
+    color: #333;
+    font-size: 1rem;
+    line-height: 3.266667rem;
+    text-indent: .5rem;
+}
+.main .store .head .GoIn {
+    width: 4.133333rem;
+    height: 1.566667rem;
+    line-height: 1.566667rem;
+    background: #fff;
+    border: .033333rem solid #FFE500;
+    border-radius: .766667rem;
+    color: #FFE500;
+    font-size: .733333rem;
+    text-align: center;
+    float: right;
+    margin: .8rem .733333rem 0 0;
+}
+.main .ComDetail {
+    width: 22.3rem;
+    height: 60.766667rem;
+    background: #fff;
+    border-radius: .666667rem;
+    padding: .666667rem .733333rem 0 .733333rem;
+}
+.main .ComDetail h3 {
+    color: #333;
+    font-size: .8rem;
+    margin-bottom: .666667rem;
+}
+.main .ComDetail .ComItem img {
+    width: 100%;
+}
+.footer {
+    width: 100%;
+    height: 3.966667rem;
+    background: #fff;
+    border: .033333rem solid #DDDDDD;
+    position: fixed;
+    bottom: 0;
+    padding: .6rem 0 0 1.3rem;
+}
+.footer button {
+    width: 10.366667rem;
+    height: 2.766667rem;
+    background: #FFFFFF;
+    border: .033333rem solid #666666;
+    border-radius: .666667rem;
+    color: #666;
+    font-size: 1rem;
+}
+.footer button:last-child {
+    border: 0;
+    background: #FFE500;
+    color: #fff;
+    margin-left: 1.633333rem;
+}

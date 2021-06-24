@@ -1,0 +1,70 @@
+@charset "utf-8";
+body {
+    position: relative;
+}
+.logo {
+    position: relative;
+}
+.logo img {
+    width: 5.4rem;
+    position: absolute;
+    top: 4.466667rem;
+    left: 9.8rem;
+}
+.logo dl {
+    width: 100%;
+    position: absolute;
+    top: 8.666667rem;
+    text-align: center;
+}
+.logo dl dt {
+    color: #000;
+    font-size: 1.633333rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.logo dl dd {
+    color: #FFE500;
+    font-size: 1rem;
+}
+.form {
+    position: absolute;
+    top: 16.633333rem;
+    left: 3.9rem;
+}
+.form div {
+    position: relative;
+    margin-bottom: 3.866667rem;
+}
+.form img {
+    width: 1.533333rem;
+    float: left;
+}
+.form input {
+    width: 15.333333rem;
+    height: 1.533333rem;
+    margin-left: .466667rem;
+}
+.form .register {
+    width: 16.9rem;
+    height: 2.466667rem;
+    font-size: 1.2rem;
+    color: #fff;
+    border-radius: .6rem;
+    position: absolute;
+    top: 16.133333rem; 
+    left: 50%;
+    transform: translateX(-50%);
+    background: #434FA1;
+    box-shadow: 0 .1rem .2rem 0 #8F97CD;
+}
+.form p {
+    width: 100%;
+    position: absolute;
+    top: 19rem;
+    text-align: center;
+}
+.form p a {
+    color: #999;
+    font-size: .8rem;
+}

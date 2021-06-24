@@ -1,0 +1,58 @@
+{
+  "id": "2622114",
+  "name": "懵雷",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "7716733",
+      "name": "转发",
+      "font_class": "share",
+      "unicode": "e6cf",
+      "unicode_decimal": 59087
+    },
+    {
+      "icon_id": "15343445",
+      "name": "领券",
+      "font_class": "ticket",
+      "unicode": "ef4f",
+      "unicode_decimal": 61263
+    },
+    {
+      "icon_id": "9818324",
+      "name": "爱心",
+      "font_class": "collection",
+      "unicode": "e63c",
+      "unicode_decimal": 58940
+    },
+    {
+      "icon_id": "21217708",
+      "name": "分类",
+      "font_class": "Classification",
+      "unicode": "e67a",
+      "unicode_decimal": 59002
+    },
+    {
+      "icon_id": "887965",
+      "name": "我的 (2)",
+      "font_class": "mine",
+      "unicode": "e62f",
+      "unicode_decimal": 58927
+    },
+    {
+      "icon_id": "7551345",
+      "name": "首页",
+      "font_class": "home",
+      "unicode": "e678",
+      "unicode_decimal": 59000
+    },
+    {
+      "icon_id": "19317029",
+      "name": "购物车",
+      "font_class": "Shoppingcart",
+      "unicode": "f01f",
+      "unicode_decimal": 61471
+    }
+  ]
+}

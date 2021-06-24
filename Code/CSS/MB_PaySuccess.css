@@ -1,0 +1,64 @@
+@charset "utf-8";
+.header .top {
+    width: 100%;
+    height: 16.233333rem;
+    background: url(../IMG/SuccessBg.png) no-repeat;
+    background-size: 100%;
+}
+.header .bottom {
+    width: 9.3rem;
+    height: 9.3rem;
+    border: .5rem solid #FFFFFF;
+    background: linear-gradient(360deg, #FA3A3A 0%, #FD4EA7 100%);
+    border-radius: 50%;
+    margin: -18% auto 0 auto;
+    position: relative;
+}
+.header .bottom svg {
+    width: 6rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.main {
+    margin-top: .5rem;
+}
+.main dt {
+    text-align: center;
+    color: #FA3C48;
+    font-size: 2rem;
+    margin-bottom: 1.333333rem;
+}
+.main dd {
+    text-align: center;
+    color: #999;
+    font-size: .833333rem;
+    line-height: 1.333333rem;
+}
+.main .btn {
+    margin: 5rem 0 0 1.333333rem;
+}
+.main button {
+    width: 10.366667rem;
+    height: 2.766667rem;
+    background: #fff;
+    border: .033333rem solid #666666;
+    border-radius: .666667rem;
+}
+.main button:last-child {
+    background: #FD9953;
+    border: none;
+    margin-left: 1.633333rem;
+}
+.main button:last-child a {
+    color: #fff;
+}
+.footer button a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    color: #666;
+    line-height: 2.766667rem;
+    font-size: 1rem;
+}

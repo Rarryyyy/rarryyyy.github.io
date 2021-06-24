@@ -1,0 +1,334 @@
+<script>
+    (function(win,doc){
+        let docEl = doc.documentElement;
+
+        function rescale() {
+            let clientWidth = docEl.clientWidth;
+            if (clientWidth>=1200) {
+                win.location.href = 'PC_index.html'
+            }
+        }
+        rescale();
+        
+        win.addEventListener('resize',rescale)
+    })(window,document);
+</script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>雷侠商城 - 首页</title>
+    <link rel="stylesheet" href="./layui/css/layui.css" media="all">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/MB_index.css">
+    <link rel="stylesheet" href="./FONT/iconfont.css">
+</head>
+<body>
+    <div class="header">
+        <div class="layui-carousel" id="test1">
+            <div carousel-item>
+                <div><a href="#"><img src="./IMG/MB_banner.png" alt=""></a></div>
+                <div><a href="#"><img src="./IMG/MB_banner2.png" alt=""></a></div>
+            </div>
+        </div>
+        <div class="scan">
+            <a href="#"><img src="./IMG/Scan.png" alt=""></a>
+        </div>
+        <div class="search">
+            <img src="./IMG/search2.png" alt="">
+            <input type="text" placeholder="雷侠青春版">
+        </div>
+        <div class="message">
+            <a href="./MB_message.html"><img src="./IMG/message.png" alt=""></a>
+        </div>
+    </div>
+    <div class="main">
+        <div class="container">
+            <div class="nav">
+                <ul>
+                    <li><a href="#">
+                        <p><img src="./IMG/icon-phone.png" alt=""></p>
+                        <p>手机</p>
+                    </a></li>
+                    <li><a href="#">
+                        <p><img src="./IMG/icon-watch.png" alt=""></p>
+                        <p>手表手环</p>
+                    </a></li>
+                    <li><a href="#">
+                        <p><img src="./IMG/icon-music.png" alt=""></p>
+                        <p>耳机音响</p>
+                    </a></li>
+                    <li style="margin-right: 0;"><a href="#">
+                        <p><img src="./IMG/icon-computer.png" alt=""></p>
+                        <p>电脑</p>
+                    </a></li>
+                    <li><a href="#">
+                        <p><img src="./IMG/icon-screen.png" alt=""></p>
+                        <p>屏幕</p>
+                    </a></li>
+                    <li><a href="#">
+                        <p><img src="./IMG/icon-hard.png" alt=""></p>
+                        <p>硬件</p>
+                    </a></li>
+                    <li><a href="#">
+                        <p><img src="./IMG/icon-server.png" alt=""></p>
+                        <p>服务</p>
+                    </a></li>
+                    <li style="margin-right: 0;"><a href="#">
+                        <p><img src="./IMG/icon-more.png" alt=""></p>
+                        <p>更多</p>
+                    </a></li>
+                </ul>
+            </div>
+            <div class="preferential">
+                <div class="timer">
+                    <div id="count">
+                        <i>613特惠&nbsp;&nbsp;</i>
+                        <span></span><i>&nbsp;&nbsp;天&nbsp;&nbsp;</i>
+                        <span></span><i>&nbsp;&nbsp;:&nbsp;&nbsp;</i>
+                        <span></span><i>&nbsp;&nbsp;:&nbsp;&nbsp;</i><span></span>
+                    </div>
+                </div>
+                <div class="Pnav">
+                    <div>
+                        <dl>
+                            <dt>5G焕新机</dt>
+                            <dd style="color: #D32A2A;">最高立省700元</dd>
+                        </dl>
+                        <ul>
+                            <li><a href="#">
+                                <img src="./IMG/phone3.png" alt="">
+                            </a></li>
+                            <li><a href="./MB_detail.html">
+                                <img src="./IMG/phone5.png" alt="">
+                            </a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <dl>
+                            <dt>正在直播</dt>
+                            <dd style="color: #FFE500;">雷侠智能生活直播</dd>
+                        </dl>
+                        <ul>
+                            <li><a href="#">
+                                <img src="./IMG/NoPath.png" alt="">
+                            </a></li>
+                            <li><a href="#">
+                                <img src="./IMG/car.png" alt="">
+                            </a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <dl>
+                            <dt>智能好物</dt>
+                            <dd style="color: #FFE500;">最高立省800元</dd>
+                        </dl>
+                        <ul>
+                            <li><a href="#">
+                                <img src="./IMG/phone4.png" alt="">
+                            </a></li>
+                            <li><a href="#">
+                                <img src="./IMG/headset.png" alt="">
+                            </a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <dl>
+                            <dt>智能家电一站购</dt>
+                            <dd style="color: #D32A2A;">爆款家电599起</dd>
+                        </dl>
+                        <ul>
+                            <li><a href="#">
+                                <img src="./IMG/washing.png" alt="">
+                            </a></li>
+                            <li><a href="#">
+                                <img src="./IMG/microwave.png" alt="">
+                            </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="comList">
+                <div class="comItem">
+                    <a href="#">
+                        <div class="comImg">
+                            <img src="./IMG/skateboard.png" alt="">
+                        </div>
+                        <dl>
+                            <dt>米兔儿童滑板车，双弹簧重力转向系统 </dt>
+                            <dd class="price"><i>￥199</i><div class="Rt"><span class="scale">秒杀</span></div></dd>
+                            <dd class="oldPrice">￥299</dd>
+                            <dd class="seckilling"><span>您浏览过的商品正在秒杀</span></dd>
+                        </dl>
+                    </a>
+                </div>
+                <div class="comItem">
+                    <a href="#">
+                        <div class="comImg">
+                            <img src="./IMG/window.png" alt="">
+                        </div>
+                        <dl>
+                            <dt>雷家智能窗帘，多种智能开合方式</dt>
+                            <dd class="price"><i>￥799</i><div class="Gt"><span class="scale">新品</span></div></dd>
+                            <dd class="oldPrice">￥899</dd>
+                            <dd class="history"><span>您的浏览足迹</span></dd>
+                        </dl>
+                    </a>
+                </div>
+                <div class="comItem">
+                    <a href="#">
+                        <div class="comImg">
+                            <img src="./IMG/plug.png" alt="">
+                        </div>
+                        <dl>
+                            <dt>雷侠氮化镓GaN充电器
+                                Type-C 65W</dt>
+                            <dd class="price"><i>￥1699</i><div class="Rt"><span class="scale">秒杀</span></div></dd>
+                            <dd class="oldPrice">￥2000</dd>
+                            <dd class="seckilling"><span>您浏览过的商品正在秒杀</span></dd>
+                        </dl>
+                    </a>
+                </div>
+                <div class="comItem">
+                    <a href="#">
+                        <div class="comImg">
+                            <img src="./IMG/watch.png" alt="">
+                        </div>
+                        <dl>
+                            <dt>雷家智能窗帘，多种智能开合方式</dt>
+                            <dd class="price"><i>￥799</i><div class="Rt"><span class="scale">包邮</span></div></dd>
+                            <dd class="oldPrice">￥299</dd>
+                            <dd class="history"><span>您的浏览足迹</span></dd>
+                        </dl>
+                    </a>
+                </div>
+                <div class="comItem">
+                    <a href="#">
+                        <div class="comImg">
+                            <img src="./IMG/headset1.png" alt="">
+                        </div>
+                        <dl>
+                            <dt>雷侠真无线蓝牙耳机Air 2s</dt>
+                            <dd class="price"><i>￥1699</i></dd>
+                            <dd class="oldPrice">￥2000</dd>
+                        </dl>
+                    </a>
+                </div>
+                <div class="comItem">
+                    <a href="#">
+                        <div class="comImg">
+                            <img src="./IMG/charging.png" alt="">
+                        </div>
+                        <dl>
+                            <dt>Redmi充电宝 20000mAh 快充版</dt>
+                            <dd class="price"><i>￥94</i><div class="Rt new"><span class="scale">新人价</span></div></dd>
+                            <dd class="oldPrice">￥99</dd>
+                        </dl>
+                    </a>
+                </div>
+                <div class="comItem">
+                    <a href="#">
+                        <div class="comImg">
+                            <img src="./IMG/lock.png" alt="">
+                        </div>
+                        <dl>
+                            <dt>小米智能门锁 推拉式，适用于标准锁体和霸王锁体</dt>
+                            <dd class="price"><i>￥1699</i><div class="Rt"><span class="scale">秒杀</span></div></dd>
+                            <dd class="oldPrice">￥2000</dd>
+                            <dd class="seckilling"><span>您浏览过的商品正在秒杀</span></dd>
+                        </dl>
+                    </a>
+                </div>
+                <div class="comItem">
+                    <a href="#">
+                        <div class="comImg">
+                            <img src="./IMG/skateboard.png" alt="">
+                        </div>
+                        <dl>
+                            <dt>米兔儿童滑板车，双弹簧重力转向系统 </dt>
+                            <dd class="price"><i>￥199</i><div class="Rt"><span class="scale">秒杀</span></div></dd>
+                            <dd class="oldPrice">￥299</dd>
+                            <dd class="seckilling"><span>您浏览过的商品正在秒杀</span></dd>
+                        </dl>
+                    </a>
+                </div>
+                <div class="comItem">
+                    <a href="#">
+                        <div class="comImg">
+                            <img src="./IMG/Pliers.png" alt="">
+                        </div>
+                        <dl>
+                            <dt>镀银指甲钳，尽享尊贵身份</dt>
+                            <dd class="price"><i>￥3999</i></dd>
+                        </dl>
+                    </a>
+                </div>
+                <div class="comItem">
+                    <a href="#">
+                        <div class="comImg">
+                            <img src="./IMG/conversion.png" alt="">
+                        </div>
+                        <dl>
+                            <dt>雷侠车载充电器快充版1A1C 100W</dt>
+                            <dd class="price"><i>￥799</i><div class="Rt"><span class="scale">包邮</span></div></dd>
+                        </dl>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div>
+            <a href="./MB_index.html" class="select">
+                <span class="iconfont icon-home"></span><br>
+                首页
+            </a>
+        </div>
+        <div>
+            <a href="./MB_ShoppingCar.html">
+                <span class="iconfont icon-Shoppingcart"></span><br>
+                购物车
+            </a>
+        </div>
+        <div>
+            <a href="./MB_login.html">
+                <span class="iconfont icon-mine"></span><br>
+                我的
+            </a>
+        </div>
+    </div>
+    <script src="./JS/rem.js"></script>
+    <script src="./layui/layui.js"></script>
+    <script src="./JS/timer.js"></script>
+    <script>
+        layui.use('carousel', function(){
+        var carousel = layui.carousel;
+        carousel.render({
+            elem: '#test1'
+            ,width: '100%'
+            ,height: '17.466667rem'
+            ,arrow: 'always'
+            ,anim: 'fade'
+        });
+        });
+
+        let span = document.querySelectorAll(".scale");
+
+        function myBrowser(){
+            var userAgent = navigator.userAgent;
+            if (userAgent.indexOf("Chrome") > -1){
+                for (let i=0;i<span.length;) {
+                    span[i++].classList.remove('scale');
+                }
+            } else {
+                for (let i=0;i<span.length;) {
+                    span[i++].classList.add('scale');
+                }
+            }
+        }
+        myBrowser();
+    </script>
+</body>
+</html>
