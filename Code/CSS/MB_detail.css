@@ -87,11 +87,11 @@ body {
 .main .PriceDetail li:last-child {
     margin: 0;
 }
-.main .PriceDetail li a {
+.main .PriceDetail li {
     color: #999;
     font-size: .8rem;
 }
-.main .PriceDetail li a span {
+.main .PriceDetail li span {
     font-size: .8rem;
 }
 .main .style {
