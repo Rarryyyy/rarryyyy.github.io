@@ -19,6 +19,7 @@
             <div class="box Combox">
                 <div class="name">
                     <div class="circle"></div>
+                    <img src="./IMG/store.png" alt="">
                     <div>雷侠自营</div>
                 </div>
                 <ul>
@@ -56,13 +57,14 @@
             </div>
             <div class="box Combox">
                 <div class="name">
-                    <div class="circle Cselect" id="circle"></div>
+                    <div class="circle" id="circle"></div>
+                    <img src="./IMG/store.png" alt="">
                     <div>国旻专营店</div>
                 </div>
                 <ul>
                     <li>
                         <div class="checkbox">
-                            <div class="checkCirle Cselect"></div>
+                            <div class="checkCirle"></div>
                             <input type="checkbox">
                         </div>
                         <a href="#" class="img"><img src="./IMG/headset.png" alt=""></a>
@@ -77,7 +79,7 @@
                     </li>
                     <li>
                         <div class="checkbox">
-                            <div class="checkCirle Cselect"></div>
+                            <div class="checkCirle"></div>
                             <input type="checkbox">
                         </div>
                         <a href="#" class="img"><img src="./IMG/phone2.png" alt=""></a>
@@ -137,6 +139,20 @@
         let circle = document.querySelectorAll('.circle');
         let checkCirle = document.querySelectorAll('.checkCirle');
         let box = document.querySelectorAll('.Combox')
+        let main = document.querySelector('.main');
+        let settlement = document.querySelector('.settlement')
+
+        function SA() {
+            if (document.querySelectorAll('.Cselect').length > 0) {
+                console.log(document.querySelectorAll('.Cselect'));
+                settlement.style.display = "block";
+                main.style.padding = '5.666667rem 0 8rem 0';
+            } else {
+                settlement.style.display = "none";
+                main.style.padding = '5.666667rem 0 4rem 0';
+            }
+        }
+        SA();
 
         for (let i=0;i<circle.length;i++) {
             let checkCirle = box[i].querySelectorAll('.checkCirle');
@@ -152,6 +168,7 @@
                         checkCirle[i++].classList.add('Cselect');
                     }
                 }
+                SA();
             })
         }
         
@@ -162,6 +179,7 @@
                 } else {
                     checkCirle[i].classList.add('Cselect');
                 }
+                SA();
             })
         }
 
@@ -185,6 +203,7 @@
                     checkCirle[i++].classList.add('Cselect');
                 }
             }
+            SA();
         })
     </script>
 </body>

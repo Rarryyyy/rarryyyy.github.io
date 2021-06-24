@@ -215,9 +215,6 @@ body {
     line-height: .8rem;
     font-size: .533333rem;
 }
-.main .comList .comItem .price .scale {
-    -webkit-transform: scale(0.8);
-}
 .main .comList .comItem .Rt {
     border: 1px solid #FF8355;
     color: #FF8355;
