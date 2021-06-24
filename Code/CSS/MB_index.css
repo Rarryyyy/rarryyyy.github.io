@@ -201,33 +201,30 @@ body {
     margin-right: .166667rem;
 }
 .main .comList .comItem .price div {
-    width: 1.8rem;
-    height: .8rem;
+    width: 1.433333rem;
+    height: .666667rem;
     border-radius: .266667rem;
     text-align: center;
+    line-height: .666667rem;
     float: left;
 }
 .main .comList .comItem .price .new {
-    width: 2.7rem;
-}
-.main .comList .comItem .price span {
-    display: block;
-    line-height: .8rem;
-    font-size: .533333rem;
+    width: 2.1rem;
 }
 .main .comList .comItem .Rt {
     border: 1px solid #FF8355;
     color: #FF8355;
+    font-size: .533333rem;
 }
 .main .comList .comItem .Gt {
     border: 1px solid #48E491;
     color: #48E491;
+    font-size: .533333rem;
 }
 .main .comList .comItem .oldPrice {
     display: block;
     color: #999;
     font-size: .466667rem;
-    -webkit-transform: scale(0.8);
     text-decoration: line-through;
     float: left;
     clear: both;
@@ -240,14 +237,9 @@ body {
     clear: both;
     position: absolute;
     bottom: .4rem;
-}
-.main .comList .comItem .seckilling span {
-    display: block;
-    width: 9rem;
-    font-size: .466667rem;
     line-height: .666667rem;
-    -webkit-transform: scale(0.6);
-    margin-left: -1.1rem;
+    text-align: center;
+    font-size: .466667rem;
 }
 .main .comList .comItem .history {
     width: 4.2rem;
@@ -257,14 +249,9 @@ body {
     clear: both;
     position: absolute;
     bottom: .4rem;
-}
-.main .comList .comItem .history span {
-    display: block;
-    width: 9rem;
-    font-size: .466667rem;
     line-height: .666667rem;
-    -webkit-transform: scale(0.6);
-    margin-left: -1.1rem;
+    text-align: center;
+    font-size: .466667rem;
 }
 .footer {
     width: 100%;
