@@ -14,8 +14,9 @@
     margin: -18% auto 0 auto;
     position: relative;
 }
-.header .bottom svg {
-    width: 6rem;
+.header .bottom img {
+    width: 5.266667rem;
+    height: 5.266667rem;
     position: absolute;
     top: 50%;
     left: 50%;
