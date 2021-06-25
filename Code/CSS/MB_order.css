@@ -39,7 +39,8 @@
     background: linear-gradient(131deg, #FD569F 0%, #FEE14A 100%);
     border-radius: 50%;
     overflow: hidden;
-
+    line-clamp: 2;
+    -webkit-line-clamp: 2;
 }
 .main .position .icon img {
     width: 1.533333rem;
