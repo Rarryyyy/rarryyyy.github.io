@@ -20,7 +20,7 @@ function add() {
 
 for (let i=0;i<input.length;i++) {
     input[i].addEventListener('focus',function(){
-        if (img[i].classList.contains('transform')) {
+        if (input[i].classList.contains('transform')) {
             remove();
         } else {
             add();
