@@ -184,6 +184,11 @@
     border: .066667rem solid #999;
     float: right;
 }
+.main .details .content .checkbox .Cselect {
+    background: url(../IMG/check.png) no-repeat;
+    background-size: 100%;
+    border: none;
+}
 .main .details .SumPri {
     float: right;
     margin-right: .866667rem;

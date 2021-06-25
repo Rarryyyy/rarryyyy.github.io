@@ -39,11 +39,26 @@ body {
 .form img {
     width: 1.533333rem;
     float: left;
+    transition: 0.5s all;
 }
 .form input {
     width: 15.333333rem;
     height: 1.533333rem;
     margin-left: .466667rem;
+    font-size: .9rem;
+    transition: 0.5s all;
+    border-bottom: .033333rem solid #ccc;
+}
+.form label {
+    color: #999;
+    font-size: .9rem;
+    position: absolute;
+    top: 50%;
+    left: 1.933333rem;
+    transform: translateY(-50%);
+}
+.transform {
+    transform: translateY(1.666667rem);
 }
 .form .register {
     width: 16.9rem;

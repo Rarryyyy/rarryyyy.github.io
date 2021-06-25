@@ -102,5 +102,16 @@
         </div>
     </div>
     <script src="./JS/rem.js"></script>
+    <script>
+        let checkCirle = document.querySelector('.checkCirle');
+
+        checkCirle.addEventListener('click',function(){
+            if (checkCirle.classList.contains('Cselect')) {
+                checkCirle.classList.remove('Cselect');
+            } else {
+                checkCirle.classList.add('Cselect');
+            }
+        })
+    </script>
 </body>
 </html>
