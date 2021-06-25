@@ -37,27 +37,16 @@ body {
     height: 5.666667rem;
     background: #fff;
     border-radius: .666667rem;
-    padding: 1.233333rem 1.566667rem 0 1.566667rem;
+    padding-top: 1.233333rem;
+}
+.main .nav ul {
+    width: 100%;
+    height: 2.833333rem;
 }
 .main .nav li {
+    width: 25%;
     float: left;
     text-align: center;
-    margin-right: 2.9rem;
-}
-@media screen and (max-width: 357px) {
-    .main .nav li {
-        margin-right: 2.8rem;
-    }
-}
-@media screen and (max-width: 341px) {
-    .main .nav li {
-        margin-right: 2.7rem;
-    }
-}
-@media screen and (max-width: 321px) {
-    .main .nav li {
-        margin-right: 2.6rem;
-    }
 }
 .main .nav li:last-child {
     margin: 0;
