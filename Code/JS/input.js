@@ -27,8 +27,7 @@ for (let i=0;i<input.length;i++) {
         }
     })
     input[i].addEventListener('blur',function(){
-        if (input.values == "") {
-            remove();
-        }
+        remove();
+
     })
 }
