@@ -44,6 +44,21 @@ body {
     text-align: center;
     margin-right: 2.9rem;
 }
+@media screen and (max-width: 357px) {
+    .main .nav li {
+        margin-right: 2.8rem;
+    }
+}
+@media screen and (max-width: 341px) {
+    .main .nav li {
+        margin-right: 2.7rem;
+    }
+}
+@media screen and (max-width: 321px) {
+    .main .nav li {
+        margin-right: 2.6rem;
+    }
+}
 .main .nav li:last-child {
     margin: 0;
 }
