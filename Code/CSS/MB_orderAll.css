@@ -123,6 +123,8 @@ body {
     font-size: .8rem;
     overflow: hidden;
     text-overflow: ellipsis;
+    line-clamp: 2;
+    -webkit-line-clamp: 2;
     margin-bottom: .5rem;
 }
 .main .details li .style {
